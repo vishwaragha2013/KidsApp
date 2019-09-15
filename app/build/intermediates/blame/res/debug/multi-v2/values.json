@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\workspace_new\\KidsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "F:\\workspace_new\\KidsApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "34,6,11,29,4,3,10,2,5",
+                        "startColumns": "6,4,4,4,6,4,6,4,5",
+                        "startOffsets": "877,238,401,769,144,97,346,55,187",
+                        "endLines": "61,9,27,32,4,3,10,2,5",
+                        "endColumns": "20,20,20,20,43,44,56,41,51",
+                        "endOffsets": "1434,339,758,864,181,137,396,92,233"
+                    },
+                    "to": {
+                        "startLines": "2,30,34,51,55,56,57,58,59",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,617,723,1085,1185,1227,1272,1327,1369",
+                        "endLines": "29,33,50,54,55,56,57,58,59",
+                        "endColumns": "20,20,20,20,41,44,54,41,50",
+                        "endOffsets": "612,718,1080,1180,1222,1267,1322,1364,1415"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<AbsoluteLayout
+  
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:background="@drawable/backrepeat"
+  android:weightSum="1"
+  android:layout_height="fill_parent"
+  
+  >
+<TextView android:textColor="#3B3B3B" android:layout_height="20dp" android:text="Word:" android:id="@+id/A_tv" android:layout_x="12dp" android:layout_y="78dp" android:layout_width="54dp"></TextView>
+<TextView android:textColor="#3B3B3B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Alphabet:" android:id="@+id/char_tv" android:layout_x="8dp" android:layout_y="36dp"></TextView>
+<!-- <EditText android:background="@android:drawable/editbox_background" android:layout_height="wrap_content" android:textColor="#740000" android:id="@+id/A_edit" android:layout_x="77dp" android:layout_y="30dp" android:layout_width="132dp"></EditText> -->
+
+<EditText android:background="@android:drawable/editbox_background" android:layout_height="wrap_content" android:textColor="#740000" android:id="@+id/editchar" android:layout_x="78dp" android:layout_y="69dp" android:layout_width="129dp">
+    <requestFocus></requestFocus>
+</EditText>
+<ImageView android:adjustViewBounds="true" android:id="@+id/iv_pic" android:layout_height="200dp" android:layout_width="200dp" android:scaleType="fitCenter" android:layout_x="66dp" android:layout_y="210dp"></ImageView>
+<Button android:layout_width="100px" android:background="@drawable/button" android:text="Set" android:id="@+id/setbtn" android:layout_height="wrap_content" android:layout_x="8dp" android:layout_y="447dp"></Button>
+<Button android:layout_width="150px" android:background="@drawable/button" android:text="Select Image" android:id="@+id/abtn" android:layout_height="wrap_content" android:layout_x="7dp" android:layout_y="164dp"></Button>
+<EditText android:id="@+id/pronounce" android:layout_height="34dp" android:layout_y="112dp" android:layout_width="125dp" android:layout_x="78dp" android:textColor="#740000">
+ <requestFocus></requestFocus>
+</EditText>
+<Button android:layout_width="88dp" android:background="@drawable/button" android:text="Test" android:id="@+id/button1" android:layout_height="wrap_content" android:layout_x="216dp" android:layout_y="108dp"></Button>
+<TextView android:textColor="#3B3B3B" android:layout_width="wrap_content" android:id="@+id/pr" android:text="Pronounce:" android:layout_height="20dp" android:layout_x="4dp" android:layout_y="116dp"></TextView>
+<Spinner android:layout_height="wrap_content" android:id="@+id/A_edit" android:layout_x="77dp" android:layout_y="22dp" android:layout_width="129dp"></Spinner>
+</AbsoluteLayout>
+</ScrollView>
+

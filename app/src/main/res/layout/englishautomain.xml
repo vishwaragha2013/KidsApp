@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:text="SETTINGS:" android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+   android:weightSum="1"
+    android:background="@drawable/backrepeat"
+    android:id="@+id/layout1"
+   >
+<TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_width="wrap_content">
+<TextView android:id="@+id/alpha" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		 android:text="Alphabets" android:textColor="#FF0000"  android:textSize="20dp"/>
+    <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="3px">
+
+        <Button android:text="A" android:id="@+id/A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+       
+        <Button android:text="B" android:id="@+id/B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+         
+        <Button android:text="C" android:id="@+id/C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+          
+        <Button android:text="D" android:id="@+id/D" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="3px">
+     
+        <Button android:layout_height="wrap_content" android:text="E" android:layout_width="wrap_content" android:id="@+id/E" android:background="@drawable/alphaback"></Button>
+        
+        <Button android:text="F" android:id="@+id/F" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+         
+        <Button android:text="G" android:id="@+id/G" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+          
+        <Button android:text="H" android:id="@+id/H" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="3px">
+     
+        <Button android:text="I" android:id="@+id/I" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback" ></Button>
+       
+        <Button android:text="J" android:id="@+id/J" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback" ></Button>
+         
+        <Button android:text="K" android:id="@+id/K" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+          
+        <Button android:text="L" android:id="@+id/L" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="3px">
+      
+        <Button android:text="M" android:id="@+id/M" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+        
+        <Button android:text="N" android:id="@+id/N" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+          
+        <Button android:text="O" android:id="@+id/O" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+      
+        <Button android:text="P" android:id="@+id/P" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="3px">
+       
+        <Button android:text="Q" android:id="@+id/Q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+         
+        <Button android:text="R" android:id="@+id/R" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+         
+        <Button android:text="S" android:id="@+id/S" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+         
+        <Button android:text="T" android:id="@+id/T" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="3px">
+         
+        <Button android:text="U" android:id="@+id/U" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+          
+        <Button android:text="V" android:id="@+id/V" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+          
+        <Button android:text="W" android:id="@+id/W" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+          
+        <Button android:text="X" android:id="@+id/X" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="3px">
+       
+        <Button android:text="Y" android:id="@+id/Y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+      
+        <Button android:text="Z" android:id="@+id/Z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/alphaback"></Button>
+    </TableRow>
+    
+    <TextView android:id="@+id/numb" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		 android:text="Numbers" android:textColor="#FF0000" android:textSize="20dp"/>
+  <TableRow android:id="@+id/tableRow8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="3px">
+       
+        <Button android:text="1" android:id="@+id/one1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/numbback"></Button>
+        
+        <Button android:text="2" android:id="@+id/two2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/numbback"></Button>
+          
+        <Button android:text="3" android:id="@+id/three3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/numbback"></Button>
+          
+        <Button android:text="4" android:id="@+id/four4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/numbback"></Button>
+    </TableRow> 
+   <TableRow android:id="@+id/tableRow9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="3px">
+         
+        <Button android:text="5" android:id="@+id/five5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/numbback"></Button>
+         
+        <Button android:text="6" android:id="@+id/six6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/numbback"></Button>
+          
+        <Button android:text="7" android:id="@+id/seven7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/numbback"></Button>
+         
+        <Button android:text="8" android:id="@+id/eight8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/numbback"></Button>
+    </TableRow> 
+    
+    <TableRow android:id="@+id/tableRow10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="3px">
+        
+        <Button android:text="9" android:id="@+id/nine9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/numbback"></Button>
+         
+        <Button android:text="10" android:id="@+id/ten10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/numbback"></Button>
+         
+    </TableRow> 
+    
+
+</TableLayout>
+
+</AbsoluteLayout>
+  </ScrollView>
+  
+ 
+

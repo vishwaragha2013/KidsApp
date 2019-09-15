@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:layout_gravity="center_vertical|center_horizontal"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<ImageView android:layout_height="181dp" android:id="@+id/imageView1" android:src="@drawable/logo" android:layout_width="453dp" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_x="-46dp" android:layout_y="122dp"></ImageView>
+</AbsoluteLayout>

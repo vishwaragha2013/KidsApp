@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:text="SETTINGS:" android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+    android:background="@drawable/backrepeat" android:weightSum="1">
+<TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_width="wrap_content">
+ 
+<TextView android:id="@+id/alpha" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		 android:text="" android:background="@drawable/swargalu"/>
+	
+    <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingBottom="10dp">
+
+        <Button  android:id="@+id/A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ಅ" android:background="@drawable/kannalpha"></Button>
+       
+        <Button  android:id="@+id/B" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="ಆ" android:background="@drawable/kannalpha"></Button>
+         
+        <Button  android:id="@+id/C" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="ಇ" android:background="@drawable/kannalpha"></Button>
+          
+        <Button  android:id="@+id/D" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ಈ" android:background="@drawable/kannalpha"></Button>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingBottom="10dp">
+     
+        <Button android:layout_height="wrap_content"  android:layout_width="wrap_content" android:id="@+id/E" android:text="ಉ" android:background="@drawable/kannalpha"></Button>
+        
+        <Button  android:id="@+id/F" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ಊ" android:background="@drawable/kannalpha"></Button>
+         
+        <Button  android:id="@+id/G" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ಋ" android:background="@drawable/kannalpha"></Button>
+          
+        <Button  android:id="@+id/H" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ಎ " android:background="@drawable/kannalpha"></Button>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingBottom="10dp">
+     
+        <Button  android:id="@+id/I" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ಏ" android:background="@drawable/kannalpha"></Button>
+       
+        <Button  android:id="@+id/J" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ಐ" android:background="@drawable/kannalpha"></Button>
+         
+        <Button android:id="@+id/K" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ಒ" android:background="@drawable/kannalpha"></Button>
+          
+        <Button  android:id="@+id/L" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ಓ" android:background="@drawable/kannalpha"></Button>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingBottom="10dp">
+      
+        <Button  android:id="@+id/M" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ಔ" android:background="@drawable/kannalpha"></Button>
+          <Button  android:id="@+id/N" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ಅಂ" android:background="@drawable/kannalpha"></Button>
+            <Button  android:id="@+id/O" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ಅಃ" android:background="@drawable/kannalpha"></Button>
+        
+</TableRow>
+    
+    <TextView android:id="@+id/numb" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		 android:background="@drawable/ankigalu" android:paddingBottom="10dp" />
+		
+  <TableRow android:id="@+id/tableRow8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingBottom="10dp">
+       
+        <Button  android:id="@+id/one1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="೧" android:background="@drawable/kannnumber"></Button>
+        
+        <Button android:id="@+id/two2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="೨" android:background="@drawable/kannnumber"></Button>
+          
+        <Button  android:id="@+id/three3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="೩" android:background="@drawable/kannnumber"></Button>
+          
+        <Button  android:id="@+id/four4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="೪" android:background="@drawable/kannnumber"></Button>
+    </TableRow> 
+   <TableRow android:id="@+id/tableRow9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+         
+        <Button  android:id="@+id/five5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="೫" android:background="@drawable/kannnumber"></Button>
+         
+        <Button  android:id="@+id/six6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="೬" android:background="@drawable/kannnumber"></Button>
+          
+        <Button  android:id="@+id/seven7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="೭" android:background="@drawable/kannnumber"></Button>
+         
+        <Button android:id="@+id/eight8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="೮" android:background="@drawable/kannnumber"></Button>
+    </TableRow> 
+    
+    <TableRow android:id="@+id/tableRow10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingBottom="10dp">
+        
+        <Button  android:id="@+id/nine9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="೯" android:background="@drawable/kannnumber"></Button>
+         
+        <Button  android:id="@+id/ten10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="೧೦" android:background="@drawable/kannnumber"></Button>
+         
+    </TableRow> 
+    
+          
+</TableLayout>
+ 
+
+</AbsoluteLayout>
+</ScrollView>

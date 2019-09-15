@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.sarga.kids"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="9" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".AndroidSplashActivity"
+                  android:label="KidsApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main" android:label="Main"></activity>
+<activity android:name=".EnglishManualSetting_Menu" android:label="English Settings"></activity>
+<activity android:name=".KidsAppEnglishManualActivity" android:label="EnglishManual"></activity>
+<activity android:name=".KannadaAutoActivity" android:label="KannadaAuto"></activity>
+<activity android:name=".KannadaSetting_Menu" android:label="Kannada Settings" ></activity>
+<activity android:name=".KidsAppEnglishAutoActivity"  android:label="EnglishAuto" ></activity>
+<activity android:name=".KannadaManualActivity"  android:label="EnglishAuto" ></activity>
+    </application>
+</manifest>

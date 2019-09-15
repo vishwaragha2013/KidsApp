@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="@drawable/backrepeat2"
+  >
+<TextView android:layout_width="wrap_content" android:id="@+id/TextView09" android:textColor="#00DF00" android:layout_height="37dp" android:text="Languages:" android:layout_x="10dp" android:layout_y="68dp"></TextView>
+<Spinner android:prompt="@string/prompt" android:id="@+id/language" android:layout_height="wrap_content" android:layout_x="94dp" android:layout_y="60dp" android:layout_width="132dp"></Spinner>
+<TextView android:textColor="#FF0000" android:layout_height="37dp" android:layout_width="277dp" android:text="Copyright 2011-2012 @Sarga Technologies Rajaji Nagar Bangalore" android:id="@+id/link23_view" android:layout_x="5dp" android:layout_y="264dp"></TextView>
+<Button android:layout_height="wrap_content" android:id="@+id/btnsubmit" android:layout_width="wrap_content" android:background="@drawable/button" android:text="Submit" android:layout_x="12dp" android:layout_y="213dp"></Button>
+<Spinner android:layout_height="wrap_content" android:id="@+id/modspinner" android:layout_y="130dp" android:layout_width="134dp" android:layout_x="93dp"></Spinner>
+<TextView android:textColor="#00DF00" android:layout_height="37dp" android:layout_width="69dp" android:text="Mode:" android:id="@+id/modetext" android:layout_x="23dp" android:layout_y="133dp"></TextView>
+<TextView android:layout_height="fill_parent" android:layout_width="175dp" android:id="@+id/link2_view" android:layout_x="14dp" android:layout_y="313dp"></TextView>
+</AbsoluteLayout>
